@@ -1,0 +1,17 @@
+ ## To-Do API using FastAPI
+
+## Description
+This project is a RESTful API for managing To-Do tasks using FastAPI. It includes endpoints to create, read, update, and delete To-Do items. Tasks are classified by priority levels (LOW, MEDIUM, HIGH) defined using an `IntEnum`. The API handles validation and efficient data management with Pydantic models.
+
+## Features
+- CRUD operations for To-Do items
+- Task prioritization with `IntEnum`
+- FastAPI for lightweight and efficient API development
+- Error handling via HTTP exceptions
+
+## Technologies Used
+- Python 3.9+
+- FastAPI
+- Pydantic
+- Uvicorn
+
